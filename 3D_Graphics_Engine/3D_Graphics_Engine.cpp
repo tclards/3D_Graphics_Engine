@@ -180,5 +180,9 @@ int main()
 	{
 		graphicsEngine.Start();
 	}
+	else if (graphicsEngine.ConstructConsole(256, 160, 4, 4))
+	{
+		graphicsEngine.Start();
+	}
 	return 0;
 }
